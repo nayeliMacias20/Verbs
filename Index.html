@@ -19,8 +19,31 @@
                 <p class="text-light">1/25</p>
             </form>
         </div>
-      </nav>
+    </nav>
+    <!--Play audio-->
+    <div class="text-center" id="next">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16" id="next">
+            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+        </svg>
+        <h1 id="showVerb">Play to start</h1>
+    </div>
+    <!--Play audio-->
+    <div class="container text-center">
+        <div id="verbs-container">
+            <div id="showimage"></div>
+            <audio id="showaudio"></audio>
+            <p id="first-verb"  class="verbs-answer"></p>
+            <p id="Second-verb" class="verbs-answer"></p>
+            <p id="Third-verb"  class="verbs-answer"></p>
+            <p id="Fourth-verb" class="verbs-answer"></p>
+        </div>
+        <!--class verbs container-->
+        <small class="counter">
+            <span id="all-right-answers"></span>
+        </small>
+    </div>
+    <!--class container -->
 </body>
-<script src="../Pagina Verbos/script.js">
+<script src="script.js">
 </script>
 </html>
