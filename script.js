@@ -30,7 +30,7 @@ let allRightAnswers;
 //Funcion para que el usuario escuche los audios. AddEvent"Escuchador"
 next.addEventListener('click', function(){
     ponerVerbo();
-    next.style.display = 'none';  
+    //next.style.display = 'none';  
     //alert('holis') 
 });
 //Funcion de poner el verbo
